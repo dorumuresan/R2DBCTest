@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- Define the property for where the logfile is to be stored - this is the file that will be used in admin
+     so always use this in your file to override the default logfile. -->
+	<!-- <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}"/>-->
+	<property name="LOG_FILE" value="./logs/test.log"/>
+
+	<!-- We just use the defaults from logback -->
+	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+	<!-- CONSOLE Appender -->
+	<property name="CONSOLE_LOG_PATTERN" value="%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr([%X{request-info} session-id=%X{session-id} loginId=%X{login-id}]){faint} %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${CONSOLE_LOG_PATTERN}</pattern>
+		</encoder>
+	</appender>
+
+	<!-- FILE Appender -->
+	<property name="FILE_LOG_PATTERN" value="%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}} ${LOG_LEVEL_PATTERN:-%5p} [%X{request-info} session-id=%X{session-id} loginId=%X{login-id}] ${PID:- } --- [%thread] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<encoder>
+			<pattern>${FILE_LOG_PATTERN}</pattern>
+		</encoder>
+		<file>${LOG_FILE}</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_FILE}.%d{yyyy-MM-dd}.%i</fileNamePattern>
+			<maxFileSize>${LOG_FILE_MAX_SIZE:-10MB}</maxFileSize>
+			<maxHistory>${LOG_FILE_MAX_HISTORY:-10}</maxHistory>
+			<totalSizeCap>${LOG_FILE_TOTAL_SIZE_CAP:-100MB}</totalSizeCap>
+		</rollingPolicy>
+	</appender>
+
+<!--	<appender name="SQLROLLINGFILE">-->
+<!--		<File>/tmp/sql.log</File>-->
+<!--		<rollingPolicy>-->
+<!--			<FileNamePattern>logFile.%d{yyyy-MM-dd}.log</FileNamePattern>-->
+<!--		</rollingPolicy>-->
+<!--		<layout>-->
+<!--			<Pattern>%-4date | %msg %n</Pattern>-->
+<!--		</layout>-->
+<!--	</appender>-->
+
+<!--	<logger name="org.hibernate.SQL" additivity="false" >-->
+<!--		<level value="DEBUG" />-->
+<!--		<appender-ref ref="SQLROLLINGFILE" />-->
+<!--	</logger>-->
+
+<!--	<logger name="org.hibernate.type" additivity="false" >-->
+<!--		<level value="TRACE" />-->
+<!--		<appender-ref ref="SQLROLLINGFILE" />-->
+<!--	</logger>-->
+
+	<!-- Appenders log level -->
+	<root level="INFO">
+		<appender-ref ref="CONSOLE"/>
+		<appender-ref ref="FILE"/>
+	</root>
+
+	<logger name="org.springframework" level="info" additivity="false">
+		<appender-ref ref="CONSOLE"/>
+	</logger>
+
+	<jmxConfigurator/>
+</configuration>

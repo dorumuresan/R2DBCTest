@@ -1,0 +1,558 @@
+2022-03-29 15:07:31.300  INFO [ session-id= loginId=] 4450 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 4450 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:07:31.318  INFO [ session-id= loginId=] 4450 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:07:32.598  INFO [ session-id= loginId=] 4450 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:07:32.599  INFO [ session-id= loginId=] 4450 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:07:32.702  INFO [ session-id= loginId=] 4450 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:07:32.798  INFO [ session-id= loginId=] 4450 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:07:33.143  INFO [ session-id= loginId=] 4450 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:07:33.190  INFO [ session-id= loginId=] 4450 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.022s)
+2022-03-29 15:07:33.204  INFO [ session-id= loginId=] 4450 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:07:33.205  INFO [ session-id= loginId=] 4450 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:07:33.226  INFO [ session-id= loginId=] 4450 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-29 15:09:23.350  INFO [ session-id= loginId=] 5020 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 5020 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:09:23.353  INFO [ session-id= loginId=] 5020 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:09:24.354  INFO [ session-id= loginId=] 5020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:09:24.354  INFO [ session-id= loginId=] 5020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:09:24.444  INFO [ session-id= loginId=] 5020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:09:24.519  INFO [ session-id= loginId=] 5020 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-29 15:12:25.235  INFO [ session-id= loginId=] 6597 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 6597 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:12:25.239  INFO [ session-id= loginId=] 6597 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:12:26.244  INFO [ session-id= loginId=] 6597 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:12:26.244  INFO [ session-id= loginId=] 6597 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:12:26.336  INFO [ session-id= loginId=] 6597 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:12:26.489  INFO [ session-id= loginId=] 6597 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-29 15:16:38.947  INFO [ session-id= loginId=] 8663 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 8663 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:16:38.951  INFO [ session-id= loginId=] 8663 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:16:39.960  INFO [ session-id= loginId=] 8663 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:16:39.961  INFO [ session-id= loginId=] 8663 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:16:40.045  INFO [ session-id= loginId=] 8663 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:16:40.407  INFO [ session-id= loginId=] 8663 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-29 15:18:23.806  INFO [ session-id= loginId=] 9231 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 9231 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:18:23.809  INFO [ session-id= loginId=] 9231 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:18:24.781  INFO [ session-id= loginId=] 9231 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:18:24.781  INFO [ session-id= loginId=] 9231 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:18:24.878  INFO [ session-id= loginId=] 9231 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:18:25.252  INFO [ session-id= loginId=] 9231 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-29 15:19:36.578  INFO [ session-id= loginId=] 9422 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 9422 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:19:36.582  INFO [ session-id= loginId=] 9422 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:19:37.565  INFO [ session-id= loginId=] 9422 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:19:37.566  INFO [ session-id= loginId=] 9422 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:19:37.661  INFO [ session-id= loginId=] 9422 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:19:38.027  INFO [ session-id= loginId=] 9422 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-29 15:25:34.710  INFO [ session-id= loginId=] 11647 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 11647 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:25:34.712  INFO [ session-id= loginId=] 11647 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:25:35.703  INFO [ session-id= loginId=] 11647 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:25:35.704  INFO [ session-id= loginId=] 11647 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:25:35.785  INFO [ session-id= loginId=] 11647 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:25:36.518  INFO [ session-id= loginId=] 11647 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:25:36.795  INFO [ session-id= loginId=] 11647 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:25:36.831  INFO [ session-id= loginId=] 11647 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.018s)
+2022-03-29 15:25:36.840  INFO [ session-id= loginId=] 11647 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:25:36.841  INFO [ session-id= loginId=] 11647 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:25:36.911  INFO [ session-id= loginId=] 11647 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 2.548 seconds (JVM running for 3.307)
+2022-03-29 15:26:00.866  INFO [ session-id= loginId=] 11647 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:26:01.541  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.141  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.161  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.162  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.163  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.163  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.164  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.165  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.167  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:26:05.169  WARN [ session-id= loginId=] 11647 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:29:59.898  INFO [ session-id= loginId=] 19450 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 19450 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:29:59.902  INFO [ session-id= loginId=] 19450 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:30:01.099  INFO [ session-id= loginId=] 19450 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:30:01.099  INFO [ session-id= loginId=] 19450 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:30:01.184  INFO [ session-id= loginId=] 19450 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:30:01.832  INFO [ session-id= loginId=] 19450 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:30:02.109  INFO [ session-id= loginId=] 19450 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:30:02.147  INFO [ session-id= loginId=] 19450 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.017s)
+2022-03-29 15:30:02.156  INFO [ session-id= loginId=] 19450 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:30:02.157  INFO [ session-id= loginId=] 19450 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:30:02.227  INFO [ session-id= loginId=] 19450 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 2.845 seconds (JVM running for 3.556)
+2022-03-29 15:30:06.826  INFO [ session-id= loginId=] 19450 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:30:07.442  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.492 ERROR [ session-id= loginId=] 19450 --- [http-nio-8085-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+io.r2dbc.spi.R2dbcBadGrammarException: Unknown column 'Person.IsNew' in 'field list'
+	at dev.miku.r2dbc.mysql.ExceptionFactory.createException(ExceptionFactory.java:81)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ SQL "select Person.id, Person.Name, Person.IsNew
+from person Person" [DatabaseClient]
+Original Stack Trace:
+		at dev.miku.r2dbc.mysql.ExceptionFactory.createException(ExceptionFactory.java:81)
+		at dev.miku.r2dbc.mysql.QueryFlow.lambda$execute0$8(QueryFlow.java:241)
+		at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:169)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at dev.miku.r2dbc.mysql.util.DiscardOnCancelSubscriber.onNext(DiscardOnCancelSubscriber.java:70)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:250)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:119)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:265)
+		at dev.miku.r2dbc.mysql.client.ReactorNettyClient$ResponseSink.next(ReactorNettyClient.java:340)
+		at dev.miku.r2dbc.mysql.client.ReactorNettyClient.lambda$new$0(ReactorNettyClient.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+		at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:279)
+		at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:388)
+		at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:404)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.handleDecoded(MessageDuplexCodec.java:187)
+		at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.channelRead(MessageDuplexCodec.java:95)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1372)
+		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1235)
+		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1284)
+		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022-03-29 15:30:07.494 ERROR [ session-id= loginId=] 19450 --- [http-nio-8085-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.r2dbc.BadSqlGrammarException: executeMany; bad SQL grammar [select Person.id, Person.Name, Person.IsNew
+from person Person]; nested exception is io.r2dbc.spi.R2dbcBadGrammarException: [1054] [42S22] Unknown column 'Person.IsNew' in 'field list'] with root cause
+
+io.r2dbc.spi.R2dbcBadGrammarException: Unknown column 'Person.IsNew' in 'field list'
+	at dev.miku.r2dbc.mysql.ExceptionFactory.createException(ExceptionFactory.java:81)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ SQL "select Person.id, Person.Name, Person.IsNew
+from person Person" [DatabaseClient]
+Original Stack Trace:
+		at dev.miku.r2dbc.mysql.ExceptionFactory.createException(ExceptionFactory.java:81)
+		at dev.miku.r2dbc.mysql.QueryFlow.lambda$execute0$8(QueryFlow.java:241)
+		at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:169)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at dev.miku.r2dbc.mysql.util.DiscardOnCancelSubscriber.onNext(DiscardOnCancelSubscriber.java:70)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:250)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:119)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+		at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+		at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+		at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:265)
+		at dev.miku.r2dbc.mysql.client.ReactorNettyClient$ResponseSink.next(ReactorNettyClient.java:340)
+		at dev.miku.r2dbc.mysql.client.ReactorNettyClient.lambda$new$0(ReactorNettyClient.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+		at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:279)
+		at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:388)
+		at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:404)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.handleDecoded(MessageDuplexCodec.java:187)
+		at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.channelRead(MessageDuplexCodec.java:95)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1372)
+		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1235)
+		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1284)
+		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022-03-29 15:30:07.575  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.586  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.587  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.588  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.589  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.590  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.590  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.593  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:07.594  WARN [ session-id= loginId=] 19450 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:30:57.294  INFO [ session-id= loginId=] 20207 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 20207 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:30:57.298  INFO [ session-id= loginId=] 20207 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:30:58.311  INFO [ session-id= loginId=] 20207 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:30:58.311  INFO [ session-id= loginId=] 20207 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:30:58.406  INFO [ session-id= loginId=] 20207 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:30:59.115  INFO [ session-id= loginId=] 20207 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:30:59.375  INFO [ session-id= loginId=] 20207 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:30:59.410  INFO [ session-id= loginId=] 20207 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.016s)
+2022-03-29 15:30:59.418  INFO [ session-id= loginId=] 20207 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:30:59.418  INFO [ session-id= loginId=] 20207 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:30:59.504  INFO [ session-id= loginId=] 20207 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 2.634 seconds (JVM running for 3.431)
+2022-03-29 15:31:03.705  INFO [ session-id= loginId=] 20207 --- [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:31:04.363  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.501  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.505  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.506  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.507  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.508  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.509  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.510  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.512  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:04.514  WARN [ session-id= loginId=] 20207 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:31:36.948 ERROR [ session-id= loginId=] 20207 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.springframework.dao.TransientDataAccessResourceException: Failed to update table [person]. Row with Id [8612f98f-d045-4a99-9b39-8b34b2eef196] does not exist.
+	at org.springframework.data.r2dbc.core.R2dbcEntityTemplate.lambda$doUpdate$12(R2dbcEntityTemplate.java:742)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:103)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.MonoUsingWhen$MonoUsingWhenSubscriber.deferredComplete(MonoUsingWhen.java:268)
+	at reactor.core.publisher.FluxUsingWhen$CommitInner.onComplete(FluxUsingWhen.java:527)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2058)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2058)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209)
+	at reactor.pool.SimpleDequePool.maybeRecycleAndDrain(SimpleDequePool.java:533)
+	at reactor.pool.SimpleDequePool$QueuePoolRecyclerInner.onComplete(SimpleDequePool.java:765)
+	at reactor.core.publisher.Operators.complete(Operators.java:137)
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.pool.SimpleDequePool$QueuePoolRecyclerMono.subscribe(SimpleDequePool.java:877)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.Operators.complete(Operators.java:137)
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onComplete(FluxHandleFuseable.java:229)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1817)
+	at reactor.core.publisher.MonoSupplier.subscribe(MonoSupplier.java:62)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onError(MonoIgnoreElements.java:84)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onError(FluxFilter.java:157)
+	at reactor.core.publisher.FluxFilter$FilterConditionalSubscriber.onError(FluxFilter.java:291)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onError(FluxMap.java:259)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.FluxUsingWhen$UsingWhenSubscriber.onComplete(FluxUsingWhen.java:384)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1817)
+	at reactor.core.publisher.MonoStreamCollector$StreamCollectorSubscriber.onComplete(MonoStreamCollector.java:178)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:846)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:608)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:588)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:465)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:549)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.checkTerminated(FluxWindowPredicate.java:538)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.drainLoop(FluxWindowPredicate.java:486)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.drain(FluxWindowPredicate.java:430)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onComplete(FluxWindowPredicate.java:310)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onComplete(FluxHandleFuseable.java:229)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126)
+	at dev.miku.r2dbc.mysql.util.DiscardOnCancelSubscriber.onComplete(DiscardOnCancelSubscriber.java:104)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:940)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onComplete(MonoFlatMapMany.java:260)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onComplete(FluxHandle.java:213)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:134)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:265)
+	at dev.miku.r2dbc.mysql.client.ReactorNettyClient$ResponseSink.next(ReactorNettyClient.java:340)
+	at dev.miku.r2dbc.mysql.client.ReactorNettyClient.lambda$new$0(ReactorNettyClient.java:103)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:279)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:388)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:404)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.handleDecoded(MessageDuplexCodec.java:187)
+	at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.channelRead(MessageDuplexCodec.java:95)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1372)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1235)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1284)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022-03-29 15:31:36.949 ERROR [ session-id= loginId=] 20207 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.TransientDataAccessResourceException: Failed to update table [person]. Row with Id [8612f98f-d045-4a99-9b39-8b34b2eef196] does not exist.] with root cause
+
+org.springframework.dao.TransientDataAccessResourceException: Failed to update table [person]. Row with Id [8612f98f-d045-4a99-9b39-8b34b2eef196] does not exist.
+	at org.springframework.data.r2dbc.core.R2dbcEntityTemplate.lambda$doUpdate$12(R2dbcEntityTemplate.java:742)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:103)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.MonoUsingWhen$MonoUsingWhenSubscriber.deferredComplete(MonoUsingWhen.java:268)
+	at reactor.core.publisher.FluxUsingWhen$CommitInner.onComplete(FluxUsingWhen.java:527)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2058)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2058)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209)
+	at reactor.pool.SimpleDequePool.maybeRecycleAndDrain(SimpleDequePool.java:533)
+	at reactor.pool.SimpleDequePool$QueuePoolRecyclerInner.onComplete(SimpleDequePool.java:765)
+	at reactor.core.publisher.Operators.complete(Operators.java:137)
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.pool.SimpleDequePool$QueuePoolRecyclerMono.subscribe(SimpleDequePool.java:877)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.Operators.complete(Operators.java:137)
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onComplete(FluxHandleFuseable.java:229)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1817)
+	at reactor.core.publisher.MonoSupplier.subscribe(MonoSupplier.java:62)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onError(MonoIgnoreElements.java:84)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onError(FluxFilter.java:157)
+	at reactor.core.publisher.FluxFilter$FilterConditionalSubscriber.onError(FluxFilter.java:291)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onError(FluxMap.java:259)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.FluxUsingWhen$UsingWhenSubscriber.onComplete(FluxUsingWhen.java:384)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1817)
+	at reactor.core.publisher.MonoStreamCollector$StreamCollectorSubscriber.onComplete(MonoStreamCollector.java:178)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:846)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:608)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:588)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:465)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:549)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.checkTerminated(FluxWindowPredicate.java:538)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.drainLoop(FluxWindowPredicate.java:486)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.drain(FluxWindowPredicate.java:430)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onComplete(FluxWindowPredicate.java:310)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onComplete(FluxHandleFuseable.java:229)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126)
+	at dev.miku.r2dbc.mysql.util.DiscardOnCancelSubscriber.onComplete(DiscardOnCancelSubscriber.java:104)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:940)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onComplete(MonoFlatMapMany.java:260)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onComplete(FluxHandle.java:213)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:134)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:265)
+	at dev.miku.r2dbc.mysql.client.ReactorNettyClient$ResponseSink.next(ReactorNettyClient.java:340)
+	at dev.miku.r2dbc.mysql.client.ReactorNettyClient.lambda$new$0(ReactorNettyClient.java:103)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:279)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:388)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:404)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.handleDecoded(MessageDuplexCodec.java:187)
+	at dev.miku.r2dbc.mysql.client.MessageDuplexCodec.channelRead(MessageDuplexCodec.java:95)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1372)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1235)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1284)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022-03-29 15:37:21.333  INFO [ session-id= loginId=] 22595 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 22595 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:37:21.335  INFO [ session-id= loginId=] 22595 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:37:22.421  INFO [ session-id= loginId=] 22595 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:37:22.422  INFO [ session-id= loginId=] 22595 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:37:22.520  INFO [ session-id= loginId=] 22595 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:37:23.291  INFO [ session-id= loginId=] 22595 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:37:23.579  INFO [ session-id= loginId=] 22595 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:37:23.613  INFO [ session-id= loginId=] 22595 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.015s)
+2022-03-29 15:37:23.621  INFO [ session-id= loginId=] 22595 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:37:23.622  INFO [ session-id= loginId=] 22595 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:37:23.695  INFO [ session-id= loginId=] 22595 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 2.737 seconds (JVM running for 3.506)
+2022-03-29 15:37:45.012  INFO [ session-id= loginId=] 22595 --- [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:37:45.642  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.788  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.790  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.791  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.792  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.792  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.793  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.794  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.796  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:37:45.797  WARN [ session-id= loginId=] 22595 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:38.338  INFO [ session-id= loginId=] 28245 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 28245 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:49:38.341  INFO [ session-id= loginId=] 28245 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:49:39.312  INFO [ session-id= loginId=] 28245 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:49:39.312  INFO [ session-id= loginId=] 28245 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:49:39.396  INFO [ session-id= loginId=] 28245 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:49:40.029  INFO [ session-id= loginId=] 28245 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:49:40.290  INFO [ session-id= loginId=] 28245 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:49:40.329  INFO [ session-id= loginId=] 28245 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.017s)
+2022-03-29 15:49:40.340  INFO [ session-id= loginId=] 28245 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:49:40.340  INFO [ session-id= loginId=] 28245 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:49:40.407  INFO [ session-id= loginId=] 28245 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 2.395 seconds (JVM running for 3.116)
+2022-03-29 15:49:45.889  INFO [ session-id= loginId=] 28245 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:49:46.542  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.698  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.706  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.708  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.710  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.711  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.712  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.716  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.719  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:49:46.721  WARN [ session-id= loginId=] 28245 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:56:49.345  INFO [ session-id= loginId=] 30816 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 30816 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:56:49.348  INFO [ session-id= loginId=] 30816 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:56:50.313  INFO [ session-id= loginId=] 30816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:56:50.313  INFO [ session-id= loginId=] 30816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:56:50.406  INFO [ session-id= loginId=] 30816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:56:51.088  INFO [ session-id= loginId=] 30816 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.5.7 by Redgate
+2022-03-29 15:56:51.351  INFO [ session-id= loginId=] 30816 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/testr2dbc (MySQL 8.0)
+2022-03-29 15:56:51.388  INFO [ session-id= loginId=] 30816 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.016s)
+2022-03-29 15:56:51.395  INFO [ session-id= loginId=] 30816 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `testr2dbc`: 1.0.0
+2022-03-29 15:56:51.396  INFO [ session-id= loginId=] 30816 --- [main] o.f.core.internal.command.DbMigrate      : Schema `testr2dbc` is up to date. No migration necessary.
+2022-03-29 15:56:51.456  INFO [ session-id= loginId=] 30816 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 2.447 seconds (JVM running for 3.136)
+2022-03-29 15:56:59.516  INFO [ session-id= loginId=] 30816 --- [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:57:00.121  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.275  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.290  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.291  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.292  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.293  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.294  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.295  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.297  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:57:00.299  WARN [ session-id= loginId=] 30816 --- [reactor-tcp-nio-2] dev.miku.r2dbc.mysql.MySqlConnection     : The server timezone is <EEST> that's unknown, trying to use system default timezone
+2022-03-29 15:59:18.283  INFO [ session-id= loginId=] 31574 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 31574 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-29 15:59:18.285  INFO [ session-id= loginId=] 31574 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:59:19.265  INFO [ session-id= loginId=] 31574 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-29 15:59:19.266  INFO [ session-id= loginId=] 31574 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 15:59:19.346  INFO [ session-id= loginId=] 31574 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-29 15:59:19.475  INFO [ session-id= loginId=] 31574 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

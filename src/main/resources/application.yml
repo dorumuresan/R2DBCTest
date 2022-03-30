@@ -1,0 +1,14 @@
+server:
+  port: 8085
+
+spring:
+  flyway:
+    url: jdbc:mysql://localhost:3306/testr2dbc
+    user: root
+    password: root1234
+    baselineOnMigrate: true
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306
+    name: testr2dbc
+    username: root
+    password: root1234

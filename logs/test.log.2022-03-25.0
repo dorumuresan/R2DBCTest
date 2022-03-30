@@ -1,0 +1,6 @@
+2022-03-25 15:13:04.825  INFO [ session-id= loginId=] 76346 --- [main] c.d.d.DoruTestProjectApplication         : Starting DoruTestProjectApplication using Java 11.0.11 on ROC-P2B8MD6R with PID 76346 (/Users/dmuresan/Work/DoruTestProject/target/classes started by dmuresan in /Users/dmuresan/Work/DoruTestProject)
+2022-03-25 15:13:04.840  INFO [ session-id= loginId=] 76346 --- [main] c.d.d.DoruTestProjectApplication         : No active profile set, falling back to default profiles: default
+2022-03-25 15:13:05.762  INFO [ session-id= loginId=] 76346 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-25 15:13:05.763  INFO [ session-id= loginId=] 76346 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-25 15:13:05.850  INFO [ session-id= loginId=] 76346 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-25 15:13:06.417  INFO [ session-id= loginId=] 76346 --- [main] c.d.d.DoruTestProjectApplication         : Started DoruTestProjectApplication in 1.924 seconds (JVM running for 2.644)
