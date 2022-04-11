@@ -1,5 +1,11 @@
 package com.doru.dorutestproject.service;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.r2dbc.core.R2dbcEntityTemplate;
+import org.springframework.data.relational.core.query.Criteria;
+import org.springframework.data.relational.core.query.Query;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -10,7 +16,6 @@ import reactor.core.publisher.Mono;
 
 import com.doru.dorutestproject.model.Person;
 import com.doru.dorutestproject.model.PersonRequest;
-import com.doru.dorutestproject.model.QPerson;
 import com.doru.dorutestproject.repository.PersonRepository;
 import com.querydsl.core.types.Predicate;
 
@@ -55,5 +60,36 @@ public class PersonService {
 
 	public Flux<Person> findAll(Predicate predicate) {
 		return personRepository.findAll(predicate);
+	}
+
+	public Mono<Page<Person>> findAllPaginated(Predicate predicate, Pageable pageable) {
+//		return this.personRepository.findAllBy("Doru Muresan 2", pageable)
+//				.collectList()
+//				.zipWith(this.personRepository.count())
+//				.map(t -> new PageImpl<>(t.getT1(), pageable, t.getT2()));
+
+		return this.personRepository.findBy(pageable, predicate)
+				.collectList()
+				.zipWith(this.personRepository.count())
+				.map(t -> new PageImpl<>(t.getT1(), pageable, t.getT2()));
+
+
+//		return this.personRepository.findAllBy(pageable)
+//				.collectList()
+//				.zipWith(this.personRepository.count())
+//				.map(t -> new PageImpl<>(t.getT1(), pageable, t.getT2()));
+
+//		return this.personRepository.findAllByName("Doru Muresan 4", pageable)
+//				.collectList()
+//				.zipWith(this.personRepository.count())
+//				.map(t -> new PageImpl<>(t.getT1(), pageable, t.getT2()));
+	}
+
+	private final R2dbcEntityTemplate template;
+
+	public Flux<Person> findAllPaginated(String name) {
+		return this.template.select(Person.class)
+				.matching(Query.query(Criteria.where("title").like("%" + name + "%")).limit(10).offset(0))
+				.all();
 	}
 }

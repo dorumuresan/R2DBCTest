@@ -1,5 +1,7 @@
 package com.doru.dorutestproject.controller;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.querydsl.binding.QuerydslPredicate;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,5 +43,10 @@ public class PersonController {
 	@GetMapping
 	public Flux<Person> getAll(@QuerydslPredicate(root = Person.class) Predicate predicate) {
 		return personService.findAll(predicate);
+	}
+
+	@GetMapping(path = "/paginated")
+	public Mono<Page<Person>> getAllPaginated(@QuerydslPredicate(root = Person.class) Predicate predicate, Pageable pageable) {
+		return personService.findAllPaginated(predicate, pageable);
 	}
 }
